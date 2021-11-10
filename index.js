@@ -114,10 +114,10 @@ Baby.prototype.play = function(){
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. the object left of the dot when calling a function is this 
+  2. Whenever a function is contained in the global scope, the value of this inside of that function will be the window object.
+  3. this is undefined in strict mode
+  4. using the new keyword constructs a new obj and this points to it.
 */
 
 
